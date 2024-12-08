@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TONY</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">                
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img class="logo" src="img/logo.png"></img>
+            <span>$TONY</span>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a class="nav-list_item" href="#home">Home</a></li>
+                <li><a class="nav-list_item" href="#about">About</a></li>
+                <li><a class="nav-list_item" href="#tokenomics">Tokenomics</a></li>
+                <li><a class="nav-list_item" href="#how-to-buy">How to Buy</a></li>
+                <li><a class="nav-list_item" href="#roadmap">Roadmap</a></li>
+            </ul>
+        </nav>
+        <div class="language-toggle">
+            <input type="checkbox" id="lang-toggle" />
+            <label for="lang-toggle" id="lang" data-lang="eng"></label>
+        </div>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="text">
+                <h2>Welcome to Tony world</h2>
+                <p>Hello, investor! I’m Tony the bear, and I’m thrilled to welcome you to my token’s world. Here, you’ll find everything you need to know about our project, goals, plans, and unique tokenomics. Welcome to the community where dreams turn into reality!</p>
+            </div>
+            <img src="img/hands.png" alt="-">
+        </section>
+
+        <section id="about" class="section">
+            <img src="img/ciggar.png" alt="-">
+            <div class="text">
+                <h2>About project</h2>
+                <p>Tony is a groundbreaking meme project on the TON platform, born in the Blum memepad and entirely owned by its community. Our mission? To become the top meme token on TON, and then challenge the competition to claim the crown of the best meme token across all blockchain platforms. We blend fun, experimentation, and a passion for crypto innovation.
+                </p>
+            </div>
+        </section>
+
+        <section id="tokenomics" class="section">
+            <div class="text">
+                <h2>Tokenomics</h2>
+                <p>Our tokenomics is an experiment and a bold challenge to the system. We’re committed to buying back $TONY regardless of its price to maintain its value. This project isn’t about profit—it’s about community, fun, and testing what happens when no one is selling. It’s our way of proving the power of unity and trust.</p>
+            </div>
+            <div class="chart">                
+                <img src="img/tokenomics.png" alt="-" class="tokenomics-img">
+                <div class="slice" style="--start: 0; --size: 25;"></div>
+                <div class="slice" style="--start: 25; --size: 50;"></div>
+                <div class="slice" style="--start: 75; --size: 25;"></div>
+            </div>              
+        </section>
+
+        <section id="how-to-buy" class="section">
+            <img id='blum' src="img/blum.png" alt="Blum MemePad">
+            <div class="text">
+                <h2>How to Buy</h2>
+                <p>Currently, $TONY is available exclusively on the Blum memepad. But this is just the beginning! Soon, we’ll expand to decentralized exchanges (DEX), making it easy for everyone to join our project. Stay tuned for updates!</p>
+            </div>
+        </section>
+
+        <section id="roadmap" class="section">
+            <div class="text">
+                <h2>Roadmap</h2>
+                <p>Phase 1: Achieve top positions in the Blum memepad.
+                    <br><br>
+                    Phase 2: Launch on decentralized exchanges (DEX).
+                    <br><br>
+                    Phase 3: Execute an active marketing campaign to boost recognition.
+                    <br><br>
+                    Phase 4: Get listed on centralized exchanges (CEX).
+                </p>
+            </div>
+            <img id="rmap" src="img/rmap.png" alt="-">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 by Tony. All rights reserved.</p>
+    </footer>
+
+    <button id="scrollToTop" class="scroll-to-top">↑</button>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
